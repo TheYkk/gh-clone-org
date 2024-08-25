@@ -156,6 +156,6 @@ do
     git checkout "$default_branch" && git pull
     cd ..
   else
-    gh repo clone "$repo" -- --depth=1
+    gh repo clone  --depth=1 "$repo" 
   fi
 done
